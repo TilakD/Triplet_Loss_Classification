@@ -4,6 +4,9 @@ This is done using triplet loss. For example, train a model to cluster fruits im
 
 This would be useful when you are running low on training data.
 
+Idea:
+![Alt text](images/expected_flow.png?raw=true "Idea Flow")
+
 To check the concept, a pose estimation is developed and below are the results. 
 
 ### Final Results:
