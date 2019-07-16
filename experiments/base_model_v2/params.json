@@ -1,0 +1,31 @@
+{
+    "learning_rate": 1e-6,
+    "batch_size": 64,
+    "num_epochs": 50,
+
+    "num_channels": 32,
+    "use_batch_norm": true,
+    "bn_momentum": 0.9,
+    "margin": 0.5,
+    "embedding_size": 128,
+    "triplet_strategy": "batch_hard",
+    "squared": true,
+
+    "image_size": 448,
+    "num_labels": 7,
+    "train_size": 2025,
+    "eval_size": 507,
+    "num_parallel_calls": 4,
+    "save_summary_steps": 50,
+	
+	"model": "miniception_v7",
+	"output_dropout": 0.2,
+	"input_dropout": 0.2,
+	"rgb": true,
+	"max_dist": 0.7,
+	"image_type": "png",
+	"alpha": 0.5,
+	"minimize_max": true,
+	"triplet_loss": "original",
+	"optimizer": "adam"
+}
